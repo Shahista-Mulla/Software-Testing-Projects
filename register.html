@@ -1,0 +1,68 @@
+<!DOCTYPE>
+
+<html>
+<head>
+<style>
+* {
+color:	 ;
+
+}
+
+.forms {
+font-size:18px;;
+}
+
+.register-page {
+
+
+	background-image: url(log2.jpeg);
+	background-size:cover;
+	background-position:center;
+	background-image:darken;
+}
+
+</style>
+
+<h1><center>Taj Registration</center></h1>
+<title>Registration </title>
+</head>
+
+<body class="register-page">
+
+ <form class="forms">
+
+   <fieldset>
+    <legend><b>Registration Form </b></legend>
+    <label for="firstname"><b> Name </b></label>
+    <input type="text" id="firstname" name="firstname"  placeholder="First Name"/>
+    
+    <input type="text" id="lastname" name="lastname"     placeholder="Last Name"/><br><br>
+
+	<label for="email"><b>Email Id:</b></label>
+	<input type="email" name="email" placeholder="name@example.com"><br>
+
+		
+<br    <label for="gender"> <b>Gender: </b> </label>
+       <input type="radio" id="gender" name="gender" value="male"/> Male 
+       <input type="radio" id="gender" name="gender" value="female"/> Female 
+       <input type="radio" id="gender" name="gender" value="other"> Other <br><br>
+
+	<label for="number"><b>Mobile (10 digits)</b></label>
+	<input type="number" name="number" placeholder="mobile number"><br><br>
+
+	
+	<b> Date of Birth </b><input type="date" name="date" value=""><br><br>
+
+
+      <b>Current Address:</b><br>
+      <textarea id="Current Address" rows="4" cols="50" 	placeholder="Current Address"> </textarea> <br><br>
+	<label for="text"><b> State and City </b></label>
+    	<input type="text" id="text" name="text" placeholder="Select State"/>
+    
+   	 <input type="text" id="text" name="text" placeholder="Select city"/><br>
+<div class="btn">
+<br> <input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
